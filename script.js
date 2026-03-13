@@ -35,7 +35,7 @@ registerForm.addEventListener('submit', function(event) {
 
     //ConfimPassword
     if(confirmPasswordElement.value != passwordElement.value){
-        showError("confirmPassword", "Password does not match");
+        showError("confirmpassword", "Password does not match");
     }
 
     if(isValid){
